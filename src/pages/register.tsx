@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 export default function Register() {
   return (
-    <div className="h-[812px] relative flex flex-col">
+    <div className="h-[710px] relative flex flex-col border-3 border-black rounded-sm">
       <header>
         <NavigationMenu>
           <NavigationMenuList className="px-[20px] pt-[40px] pb-[22px]">

@@ -9,7 +9,7 @@ import { Card } from "@/components/ui/card";
 export default function Settings() {
   return (
     <>
-      <div className="h-[812px]">
+      <div className="h-[710px] border-3 border-black rounded-sm">
         <header className="bg-white [box-shadow:0px_3px_6px_#00000007]">
           <NavigationMenu>
             <NavigationMenuList className="px-[15px] pt-[27px] pb-[19px]">

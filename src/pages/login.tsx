@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 export default function Login() {
   return (
-    <div className="h-[812px] relative flex flex-col">
+    <div className="h-[710px] relative flex flex-col border-3 border-black rounded-sm">
       <header>
         <NavigationMenu>
           <NavigationMenuList className="px-[20px] pt-[40px] pb-[24px]">
@@ -71,7 +71,7 @@ export default function Login() {
         <Link to="/settings">
           <Button
             type="submit"
-            className="w-full bg-[#cbcbcb] hover:bg-[#919191] text-white font-semibold text-[16px] h-[46px] mt-0 mb-[30px]"
+            className="w-full bg-[#6C25FF] hover:bg-[#5a1fe6] text-white font-semibold text-[16px] h-[46px] mt-0 mb-[30px]"
           >
             Login
           </Button>
